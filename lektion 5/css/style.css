@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newColor{
+    color: blue;
+}
+#innerHTML{
+    color:navy;
+}
+
+.btn{
+    color:pink;
+    background-color: blue;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Lektion 5
+        </title>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <!-- Ladda skript från fil eller kör kod direkt i HTML-filen -->
+        
+        <!-- <script>alert("alternative script loaded")</script> -->
+    </head>
+    <body>
+<header><h1>Lektion 5</h1></header>
+<main id="main">
+    <article>
+        <div id="div1">
+            <p id="first" class="newColor">Lektion 5 demokod...</p>
+            <button onclick="buttonAlert()">Click</button>
+        </div>
+            <br/>
+            <div id="div-2">
+
+                <button id="btnCountUp" onclick="increase()">+</button>
+                <button onclick="decrease()">-</button>
+                
+                <button onclick="print()">Show</button>
+                <button onclick="reset()">Reset</button>
+            </div>
+    <h2 class="newColor">Test</h2>
+    <div id="innerHTML">
+        texten visas om javascript är avstängd.
+    </div>
+    </article>
+</main>
+<!-- Lägg skript sist i body för att ladda samtliga element först -->
+<script src="./js/script.js"></script>
+    </body>
+
+</html>
